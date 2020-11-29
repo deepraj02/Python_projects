@@ -1,0 +1,11 @@
+
+Student Details
+	Student Name:-   
+	Gender:- 
+	Date of Birth:- 
+	Phone Number:- 
+	Email Address:- 
+	Residential Address:- 
+	City:- , State:- 
+	Postal / Zip Code:- 
+
