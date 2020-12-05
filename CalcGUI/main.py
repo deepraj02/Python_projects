@@ -32,7 +32,7 @@ root.geometry("390x498")
 root.minsize(390,498)
 root.maxsize(390,498)
 root.title("GUI Calculator -By Deepraj")
-root.wm_iconbitmap("C:\\Users\\91762\\Desktop\\VS Code\\Projects\\CalcGUI\\calculator_14445.ico")
+root.wm_iconbitmap("calculator_14445.ico")
 
 
 
@@ -126,11 +126,11 @@ f1.pack(anchor=NW)
 
 #% Thanks Func
 def thanks():
-    tmb.showinfo("Thanks for Rating..","We're Glad that You Just gave us a 5⭐.\nKeep Using and Stay Happy")
+    tmb.showinfo("Feedback-Window","Would you like to give us a 5⭐\n Enjoy Your day....")
 
 #$ Thanks Note
 f1=Frame(root,bg="#EE5537",height=10,width=15)
-b=Button(f1,text="Thanks For Using\nGive us a 5⭐",font="consolas 19",bg="#E8F2E6",width=17,command=thanks)
+b=Button(f1,text="Share your\nExperience⭐",font="consolas 19",bg="#E8F2E6",width=12,command=thanks)
 b.pack(side=BOTTOM,padx=3,pady=4,anchor=W)
 f1.pack(anchor=S)
 
